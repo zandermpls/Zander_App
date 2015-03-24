@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zander</string>
+    <string name="hello_world">Buy Tickets!</string>
+    <string name="aotw">All Over the Walls</string>
+    <string name="current">Upcoming Shows:</string>
+    <string name="morenews">Current Projects:</string>
+    <string name="nyc">Jacob Alexander Figueroa recently relocated to the big Apple, NYC he is in you! You can find him body painting at local venues, in Times Square, and Bryant Square and more. Want to see him paint somewhere or have any other suggestions? Shoot him an email now, or tweet to him. If you are not already following him on Twitter, be sure to connect!</string>
+    <string name="zander">Jacob Alexander Figueroa</string>
+    <string name="bio">Jacob Alexander Figueroa is a multimedia artist, an avid painter, photographer, &amp; a renowned body painter. Zander’s body painting was featured at NY Fashion Week 2011, Summer Set Music &amp; Camping Festival 2012, to high caliber shows ranging from Benny Benassi &amp; Paul Van Dyk, to Black Kat Shows (Portland/Minneapolis), &amp; MN Gay Pride 2013 &amp; 2014. He is also a contributing member in The Band Famous, adding violin to synthesizers to their EDM sound, &amp; unveiled a new body art installment for their debut performance, body painting at the Love Monster Famous App Release Party on Friday the 13th, this June. \n\nHe is also a developer, enrolled in Full Sail University &amp; pursuing a Bachelor of Science in Mobile Development. You can download his first live app, The Band Famous, free on the iPhone App Store! \n\nPublished locally &amp; internationally, Zander is a featured artist in “All Over the Walls”, a Blue Bridge Media Group Documentary that premiered at the Minneapolis St Paul International Film Festival in 2011, as well as taking “Best Documentary Feature” at the Highway 61 Film Festival that year, &amp; also featured at the MCAD Underground Film Festival. Zander’s artworks have been featured in NY Arts Magazine and presented alongside Celebrity Designer Emre Erturk and fine artists Gigi Turker, and Gulay Alpay. \n\nHe has a runway show upcoming with RAWartists.org. To purchase tickets, click here:</string>
+    <string name="bioSum">Artist. Body Painter. Designer. Musician. Developer.</string>
+    <string name="press">Press</string>
+    <string name="port">Port</string>
+    <string name="interact">Interact</string>
+    <string name="action_settings">Return to Gallery</string>
+    <string name="drawer_open">Navigation Drawer Open</string>
+    <string name="drawer_close">Navigation Drawer Closed</string>
+
+    <!-- Nav Drawer Items -->
+    <string-array name="my_drawer_items">
+        <item>Bio</item>
+        <item>Port</item>
+        <item>Press</item>
+        <item>News</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/bio</item>
+        <item>@drawable/port</item>
+        <item>@drawable/press</item>
+        <item>@drawable/news</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_details">Press Details</string>
+    <string name="title_activity_port_details">Port Details</string>
+
+</resources>

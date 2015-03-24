@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/xzander/AndroidStudioProjects/Zander/app/build/intermediates/pre-dexed/debug/android-support-v4-ccc583c6b849cde0d62d9cbd41f2363e5456ef70.jar"
+        jar="/Users/xzander/AndroidStudioProjects/Zander/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f"/>
+    <item
+        dex="/Users/xzander/AndroidStudioProjects/Zander/app/build/intermediates/pre-dexed/debug/Parse-1.7.0-317f94f5d43ee8521cbbd4e5414b93935bbdfb0f.jar"
+        jar="/Users/xzander/AndroidStudioProjects/Zander/app/libs/Parse-1.7.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="403b8fa0a90f1ff714ad1f40382e7a448ed4f25b"/>
+
+</pre-dex-items>

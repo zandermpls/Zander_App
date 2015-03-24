@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:maxLines="40"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="22dp"
+            android:minWidth="200dp"
+            android:padding="10dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical"
+            android:text="@string/current" />
+
+        <ImageView
+            android:id="@+id/raw"
+            android:layout_width="300dp"
+            android:layout_height="335dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/aotw"
+            android:onClick="onClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/artist_flyer_zander"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/moreNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:layout_marginLeft="20dp"
+            android:textSize="22dp"
+            android:maxLines="40"
+            android:minWidth="200dp"
+            android:padding="10dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical"
+            android:text="@string/morenews" />
+        
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:scrollbars="vertical"
+            android:fillViewport="true">
+
+            <TextView
+                android:id="@+id/nyc"
+                android:layout_width="wrap_content"
+                android:layout_height="148dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="17dp"
+                android:layout_marginBottom="10dp"
+                android:minWidth="200dp"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarStyle="insideOverlay"
+                android:scrollbars="vertical"
+                android:text="@string/nyc" />
+
+        </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <ImageView
+            android:id="@+id/follow"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="108dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/aotw"
+            android:onClick="onClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/twitter"/>
+
+        <ImageView
+            android:id="@+id/resume"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/aotw"
+            android:onClick="onClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/linkedin"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
